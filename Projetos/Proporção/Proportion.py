@@ -20,12 +20,12 @@ def dir_verifier(val1, val2):
 
 def verifier(val1, val2):
     if len(val1) != len(val2):
-        return 'Error, please put same range!'
+        print('Error, please put same range!')
     if dir_verifier(val1, val2) == True:
-        return 'Diretamente'
+        return 'Directly proportional'
     elif inv_verifier(val1, val2) == True:
-        return 'Inversamente'
+        return 'Inversely proportional'
     else:
-        return 'Não'
+        return 'Not proportional'
 
 print(verifier([1,2,3,4], [9,4.5,3,2.25]))
