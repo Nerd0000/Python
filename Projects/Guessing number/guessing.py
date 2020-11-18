@@ -1,6 +1,5 @@
+#----------------------------------------------------------- imports
 import random as r
-'''This is a really easy guessing number game'''
-
 
 #----------------------------------------------------------- initial config
 difficulty = []
