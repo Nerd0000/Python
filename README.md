@@ -1,8 +1,8 @@
 # Python
 Most of the stuff I did in python
 
-## [Exercícios](https://github.com/Cleporto/Python/tree/master/Projetos)
+## [Exercises](https://github.com/Cleporto/Python/tree/master/Exercises)
 Many exercises from different origins
 
-## [Projetos](https://github.com/Cleporto/Python/tree/master/Exerc%C3%ADcios)
+## [Projects](https://github.com/Cleporto/Python/tree/master/Projects)
 Own projects
