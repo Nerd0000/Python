@@ -1,5 +1,10 @@
+#---------------------------------------------- variables
 cont = 0
+val1 = []
+val2 = []
+question = False
 
+#---------------------------------------------- code core
 def inv_verifier(val1, val2):
     for i in range(len(val1)):
         if i < len(val1)-1:
@@ -20,12 +25,19 @@ def dir_verifier(val1, val2):
 
 def verifier(val1, val2):
     if len(val1) != len(val2):
-        print('Error, please put same range!')
+        print('\nError, please put same range!')
     if dir_verifier(val1, val2) == True:
-        return 'Directly proportional'
+        print('\nThe values are directly proportional')
     elif inv_verifier(val1, val2) == True:
-        return 'Inversely proportional'
+        print('\nThe values are inversely proportional')
     else:
-        return 'Not proportional'
+        print('\nThe values are not proportional')
 
-print(verifier([1,2,3,4], [9,4.5,3,2.25]))
+#---------------------------------------------- user inputs
+question = int(input('What is the range of the number?\n'))
+
+for i in range(question):
+    val1.append(float(input('\nPlease put the value: ' )))
+    val2.append(float(input('Please put the correspondent value: ')))
+
+verifier(val1, val2)
